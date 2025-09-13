@@ -3,13 +3,13 @@ import { Link } from 'react-router-dom';
 import { ExternalLink, ArrowRight } from 'lucide-react';
 
 const CardProject = ({ Img, Title, Description, Link: ProjectLink, id }) => {
-  const handleLiveDemo = (e) => {
-    if (!ProjectLink) {
-      console.warn("Live demo link is missing.");
-      e.preventDefault();
-      alert("Live demo link is not available.");
-    }
-  };
+  // const handleLiveDemo = (e) => {
+  //   if (!ProjectLink) {
+  //     console.warn("Live demo link is missing.");
+  //     e.preventDefault();
+  //     alert("Live demo link is not available.");
+  //   }
+  // };
 
   const handleDetails = (e) => {
     if (!id) {
@@ -45,20 +45,20 @@ const CardProject = ({ Img, Title, Description, Link: ProjectLink, id }) => {
 
             {/* Action Buttons */}
             <div className="pt-4 flex items-center justify-between">
-              {ProjectLink ? (
-                <a
-                  href={ProjectLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  onClick={handleLiveDemo}
-                  className="inline-flex items-center space-x-2 text-blue-400 hover:text-blue-300 transition-colors duration-200"
-                >
-                  <span className="text-sm font-medium"></span>
-                  <ExternalLink className="w-4 h-4" />
-                </a>
-              ) : (
-                <span className="text-gray-500 text-sm"></span>
-              )}
+              {/* {ProjectLink ? ( */}
+              {/* //   <a
+              //     href={ProjectLink}
+              //     target="_blank"
+              //     rel="noopener noreferrer"
+              //     onClick={handleLiveDemo}
+              //     className="inline-flex items-center space-x-2 text-blue-400 hover:text-blue-300 transition-colors duration-200"
+              //   >
+              //     <span className="text-sm font-medium"></span>
+              //     <ExternalLink className="w-4 h-4" />
+              //   </a>
+              // ) : (
+              //   <span className="text-gray-500 text-sm"></span>
+              // )} */}
 
               {id ? (
                 <Link
