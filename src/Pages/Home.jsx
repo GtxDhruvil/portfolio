@@ -147,11 +147,10 @@ const Home = () => {
                 data-aos="fade-up"
                 data-aos-delay="1000"
               >
-                I’m Dhruvil Patel, a passionate Full Stack Developer currently 
-                pursuing my B.Tech in Computer Engineering. As I approach my final 
-                year, I’m dedicated to building scalable, efficient, and user-friendly 
-                web applications.I love exploring new technologies and leveraging 
-                them to create innovative solutions for real-world challenges.
+               Hi, I’m Dhruvil Patel — a Full Stack Developer passionate about crafting 
+               modern, user-friendly web applications. I specialize in building scalable 
+               solutions with a focus on performance, clean design, and seamless 
+               user experiences.
               </p>
 
               {/* CTA Buttons */}

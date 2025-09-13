@@ -137,9 +137,14 @@ const AboutPage = () => {
             </h2>
 
             <p className="text-base sm:text-lg lg:text-xl text-gray-400 leading-relaxed text-justify pb-4 sm:pb-0" data-aos="fade-right" data-aos-duration="1500">
-              I am a passionate full stack developer currently pursuing a Bachelor of Technology in Computer Engineering at Sarvajanik College of Engineering and Technology. I'm in my final year and love diving into modern technologies, solving real-world problems, and constantly learning new skills to build user-centric web experiences.
+              I am currently pursuing a Bachelor of Technology in Computer Engineering at Sarvajanik College 
+              of Engineering and Technology, now in my final year. With a strong foundation in both 
+              frontend and backend development, I enjoy exploring modern technologies to solve 
+              real-world challenges. Beyond academics, I’ve worked on diverse projects that 
+              combine functionality with design, helping me sharpen my problem-solving and 
+              product-building skills. I’m always eager to learn, grow, and contribute to 
+              impactful digital solutions.
             </p>
-
             <div className="flex flex-col lg:flex-row items-center gap-4 lg:gap-4">
               <a href="https://github.com/GtxDhruvi" target="_blank" rel="noreferrer">
                 <button className="sm:px-6 py-2 sm:py-3 rounded-lg bg-gradient-to-r from-[#6366f1] to-[#a855f7] text-white font-medium transition-all duration-300 hover:scale-105 flex items-center gap-2 shadow-lg">
