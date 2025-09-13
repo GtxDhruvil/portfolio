@@ -116,7 +116,7 @@ export default function PortfolioPage() {
           Description: 'InsightSage is an AI-powered meeting assistant that transforms raw meeting audio into structured insights, summaries, and task assignments. It helps teams stay aligned by automatically generating transcripts, extracting key action items, and enabling interactive Q&A. With real-time tracking and an intuitive interface, InsightSage streamlines collaboration and reduces the time spent on post-meeting follow-ups. Designed for productivity, it bridges the gap between conversations and actionable outcomes.',
           Img: '/project2.png',
           Link: '#',
-          Github: 'Private',
+          Github: 'https://github.com/GtxDhruvil/InsightSage-main',
           TechStack: ['Streamlit', 'LangChain', 'Ollama', 'Whisper', 'FFmpeg', 'SMTP (Gmail)'],
           Features: [
             'Audio Processing: MP3 → WAV conversion, transcription, speaker diarization, multi-format outputs',

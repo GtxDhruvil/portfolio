@@ -71,7 +71,7 @@ const ERASING_SPEED = 50;
 const PAUSE_DURATION = 2000;
 const WORDS = ["Frontend Developer", "Final Year CSE Student"];
 const SOCIAL_LINKS = [
-  { icon: Github, link: "https://github.com/GtxDhruvi" },
+  { icon: Github, link: "https://github.com/GtxDhruvil" },
   { icon: Linkedin, link: "https://www.linkedin.com/in/dhruvil-patel-2a2805256/" },
 ];
 
@@ -147,7 +147,7 @@ const Home = () => {
                 data-aos="fade-up"
                 data-aos-delay="1000"
               >
-               Hi, I’m Dhruvil Patel — a Full Stack Developer passionate about crafting 
+               Hi, I’m Dhruvil Patel - a Full Stack Developer passionate about crafting 
                modern, user-friendly web applications. I specialize in building scalable 
                solutions with a focus on performance, clean design, and seamless 
                user experiences.

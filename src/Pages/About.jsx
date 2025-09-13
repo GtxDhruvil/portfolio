@@ -146,7 +146,7 @@ const AboutPage = () => {
               impactful digital solutions.
             </p>
             <div className="flex flex-col lg:flex-row items-center gap-4 lg:gap-4">
-              <a href="https://github.com/GtxDhruvi" target="_blank" rel="noreferrer">
+              <a href="https://github.com/GtxDhruvil" target="_blank" rel="noreferrer">
                 <button className="sm:px-6 py-2 sm:py-3 rounded-lg bg-gradient-to-r from-[#6366f1] to-[#a855f7] text-white font-medium transition-all duration-300 hover:scale-105 flex items-center gap-2 shadow-lg">
                   <FileText className="w-5 h-5" /> View GitHub
                 </button>
