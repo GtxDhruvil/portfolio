@@ -68,11 +68,11 @@ const StatCard = memo(({ icon: Icon, color, value, label, description, animation
 ));
 
 const AboutPage = () => {
-  const { totalProjects, totalCertificates, YearExperience } = useMemo(() => {
+  const { totalProjects, totalCertificates } = useMemo(() => {
     return {
       totalProjects: 2,
-      totalCertificates: 6,
-      YearExperience: 0,
+      totalCertificates: 4,
+      // YearExperience: 0,
     };
   }, []);
 
@@ -112,15 +112,15 @@ const AboutPage = () => {
       description: "Professional skills validated",
       animation: "fade-up",
     },
-    {
-      icon: Globe,
-      color: "from-[#6366f1] to-[#a855f7]",
-      value: YearExperience,
-      label: "Years of Experience",
-      description: "Continuous learning journey",
-      animation: "fade-left",
-    },
-  ], [totalProjects, totalCertificates, YearExperience]);
+    // {
+    //   icon: Globe,
+    //   color: "from-[#6366f1] to-[#a855f7]",
+    //   value: YearExperience,
+    //   label: "Years of Experience",
+    //   description: "Continuous learning journey",
+    //   animation: "fade-left",
+    // },
+  ], [totalProjects, totalCertificates]);
 
   return (
     <div className="h-auto pb-[10%] text-white overflow-hidden px-[5%] sm:px-[5%] lg:px-[10%] pt-32" id="About">

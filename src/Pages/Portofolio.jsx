@@ -125,13 +125,22 @@ export default function PortfolioPage() {
             'User Experience: Modern design, real-time progress tracking, chat interface, file browser & diagnostics'
           ]
         };
+         // ✅ Your manual certificate data
+        const defaultCertificates = [
+        { id: "flipkart", Img: "/FLIPKART.jpg" },
+        { id: "gdsc", Img: "/GDSC_CLUB.jpg" },
+        { id: "hackoverflow", Img: "/HACKOVERFLOW.jpg" },
+        { id: "gfg", Img: "/GFG.jpg" },
+        ];
 
         const combinedProjects = [secureMediAccessProject, insightSageProject, ...fetchedProjects];
+        const combinedCertificates = [...defaultCertificates, ...fetchedCertificates];
+
         setProjects(combinedProjects);
-        setCertificates(fetchedCertificates);
+        setCertificates(combinedCertificates);
 
         localStorage.setItem("projects", JSON.stringify(combinedProjects));
-        localStorage.setItem("certificates", JSON.stringify(fetchedCertificates));
+        localStorage.setItem("certificates", JSON.stringify(combinedCertificates));
 
         setIsLoading(false);
       }
